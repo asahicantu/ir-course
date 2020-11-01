@@ -2,6 +2,17 @@
 
 ## Updates
 
+  * **Oct 26** Deadlines for the group project and further details on the report have been posted.
+  * **Oct 23** Team and topic assignments have been sent out in email. Each group is allocated a [dedicated 15mins slot](project/) (during what would normally be lecture hours) to discuss their progress. It is expected that at least one member of the group is present in person.
+  * **Oct 23** The answer key to the trial exam (which was last year's exam) has been shared on Canvas.
+  * **Oct 21** Clarifications regarding Assignment 5 have been posted [here](assignments/A5_errata.md).
+  * **Oct 21** The results for Assignment A3 have been published. The majority of the submissions lost points on the hidden tests, in part due to not accounting for the possibility of empty fields when taking lengths of lists/documents and then dividing by zero. We have also updated the results for Assignment A1.3, where we decided it was more fair to award points for passing the visible part of the final test cell, even if the hidden part of the tests failed.
+  * **Oct 20** Given the issues that surfaced in this assignment, the deadline is extended by 48 hours. Clarification and guidance have been posted [here](assignments/A4_errata.md).
+  * **Oct 20** There is an error in one of the tests of Assignment 4 (field mapping probabilities). This part of the exercise will be corrected manually. Also, getting less than 2500 items indexed will not be penalized.
+  * **Oct 16** The trial exam will be available from Monday 19/10 09:00 until Tuesday 20/10 23:59 on Inspera. It should take 4 hours in total. The exam will not be corrected (apart from the auto-corrected exercises), but answer key will be shared afterwards.
+  * **Oct 14** Information on the [group project](project/) has been posted. You need to sign up by filling out [this form](https://forms.gle/1uB4FARyGPJ6d4rt7) by 19/10.
+  * **Oct 14** The last assignment (A5) for 10 points has been pushed to the personal GitHub repositories. The deadline is 27/10 16:00.
+  * **Oct 13** An error has been discovered in the description of Assignment A4 concerning the value of the Dirichlet smoothing parameter. See the [erratum](assignments/A4_erratum.md).
   * **Oct 7** The results for Assignment A2 have been published on Canvas. Questions concerning assignment correction may be asked during the Wed labs or via email at dat640help@gmail.com.
   * **Oct 7** Assigment 4 has been announced. The Jupyter notebook you need to complete can be found in your personal GitHub repository. This assignment is worth 10 points. The deadline is Oct 20, 16:00.
   * **Oct 7** The results for Assignment A1.3 have been published on Canvas. Given that A1.3 was one of the earlier assignments, we decided to be lenient and manually grade A1.3 to give students as many points as reasonable, which took some time. Please keep in mind for future submissions that your notebook may need to run on a different machine with a different OS, so (i) use os.path to construct paths, and (ii) be mindful of iterable data structures that may not guarantee a specific ordering of elements unless sorted. **The [general instructions for assignments](assignments/) have been extended. Please carefully check them, as we will rely on fully automatic grading in subsequent assignments.**
@@ -40,7 +51,7 @@ A trial exam will be made available mirroring the same setup that will be used a
 
 ### Group project work (weeks 44-46)
 
-Students will need to complete a project in groups of 2-3, and write a report that will be graded.
+Students will need to complete a [project](project/) in groups of 2-3, and write a report that will be graded.
 
 There will be a pool of options to select a project from. During the project period, each group can request a 15mins dedicated weekly discussion slot with the lecturer during the class hours (Mon/Tue), and can get feedback on the draft report from the teaching assistant during lab hours (Wed). Both in-person and remote (Zoom) options will be available.
 
@@ -64,9 +75,9 @@ There will be a pool of options to select a project from. During the project per
 | Oct 5 | L13: Semantic search: Entity-oriented search | [slides](https://speakerdeck.com/kbalog/information-retrieval-and-text-mining-2020-semantic-search-entity-oriented-search) | [exercises](exercises/20201006/), [solutions](solutions/20201006/) |
 |  | L14: Semantic search: Entity retrieval | [slides](https://speakerdeck.com/kbalog/information-retrieval-and-text-mining-2020-semantic-search-entity-retrieval) | |
 |  | L15: Semantic search: Entity linking | [slides](https://speakerdeck.com/kbalog/information-retrieval-and-text-mining-2020-semantic-search-entity-linking) | |
-| | Elasticsearch | [description](code/elasticsearch) | |
-| Oct 12 | L16: Learning to rank | | |
-|  | L17: Neural IR (invited) | | |
+| | Elasticsearch | [code](code/elasticsearch) | |
+| Oct 12 | L16: Learning to rank | [slides](https://speakerdeck.com/kbalog/information-retrieval-and-text-mining-2020-learning-to-rank), [code](blob/master/code/LTR.ipynb) | [exercises](exercises/20201013/), [solutions](solutions/20201013/) |
+|  | L17: Neural IR (invited) | [slides](https://speakerdeck.com/kbalog/information-retrieval-and-text-mining-2020-neural-ir) | |
 |  | L18: Table retrieval (invited) | | |
 
 ## Grading

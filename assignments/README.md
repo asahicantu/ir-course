@@ -7,11 +7,11 @@ Three main assignments, with the first two divided into sub-assignments (A and B
 | Assignment 1 (three parts) ||| 10 | |
 |   A1.1 | 25/08 | 08/09 16:00 | 2 | Closed, graded |
 |   A1.2 | 01/09 | 15/09 16:00 | 3 | Closed, graded |
-|   A1.3 ([amendments](A1_3_amendments.md)) | 08/09 | 22/09 16:00 | 5 | Closed, graded |
+|   A1.3 ([errata](A1_3_errata.md)) | 08/09 | 22/09 16:00 | 5 | Closed, graded |
 | Assignment 2 (A2) | 22/09 | 06/10 16:00 | 10 | Closed, graded |
-| Assignment 3 (A3) | 30/09 | 13/10 16:00 | 10 | Open |
-| Assignment 4 (A4) | 07/10 | 20/10 16:00 | 10 | Open |
-| Assignment 5 (A5) | 13/10 | 27/10 16:00 | 10 | Not announced yet |
+| Assignment 3 (A3) | 30/09 | 13/10 16:00 | 10 | Closed, graded |
+| Assignment 4 (A4) ([errata](A4_errata.md)) | 07/10 | 22/10 16:00 | 10 | Closed, being graded |
+| Assignment 5 (A5) ([errata](A5_errata.md)) | 14/10 | 27/10 16:00 | 10 | Closed, being graded |
 | **Total** | | | **50** | |
 
 ## Workflow and rules
@@ -20,7 +20,7 @@ Three main assignments, with the first two divided into sub-assignments (A and B
   * You are given 2 weeks for each assignment. You need to submit and push the solution to GitHub before the indicated deadline.
   * Deadlines are strict, no extensions, no exceptions!
   * We have a zero tolerance policy for cheating. Copying someone else's solution, even in part, will be considered plagiarism and may result in failing the whole course.
-  * Assignments account for **40% of the final grade**.
+  * Assignments and project work account for **40% of the final grade**.
 
 ## General instructions
 

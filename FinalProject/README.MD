@@ -153,3 +153,5 @@ MS-MARCO:dXMtY2VudHJhbDEuZ2NwLmNsb3VkLmVzLmlvJDZhMGZlNDZlZWYzMzRmYWRhNzJhYmM5MTk
 cloud.elastic.co
 User Name:elastic
 Password: IfKREtTr7fCqMYTD8NKE4yBi
+
+https://cloud.elastic.co/login?redirectTo=%2Fdeployments%2Fbc2fe7ba9fa04fdab0db10d07219491e

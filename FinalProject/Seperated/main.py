@@ -12,6 +12,7 @@ import pprint
 from collections import defaultdict
 from collections import Counter
 
+
 class PointWiseLTRModel(object):
     def __init__(self, regressor):
         """
@@ -50,11 +51,13 @@ class PointWiseLTRModel(object):
             results.append(doc_ids[i])
         return results
 
+
 def get_reciprocal_rank(doc_rankings, relevant_doc_id):
     for i, doc_id in enumerate(doc_rankings):
         if doc_id == relevant_doc_id:
             return 1 / (i + 1)
     return 0
+
 
 def get_mean_eval_measure(system_rankings, eval_function):
     sum_score = 0
@@ -66,7 +69,6 @@ def get_mean_eval_measure(system_rankings, eval_function):
 def rerank_score(basic_rankings, ltr_model):
     reranked = {}
     for query_id, doc_rankings_features in tqdm(basic_rankings.items(), desc='Reranking'):
-
         doc_rankings = [x[0] for x in doc_rankings_features]
         features = [x[1] for x in doc_rankings_features]
 
@@ -96,14 +98,14 @@ for query_id, doc_id_features in basic_rankings.items():
 
 print('Base score: ', get_mean_eval_measure(system_rankings, get_reciprocal_rank))
 
-
-clf = RandomForestRegressor(max_depth=3, random_state=0, n_jobs=4, n_estimators=25)
+clf = RandomForestRegressor(max_depth=7, random_state=0, n_jobs=4, n_estimators=19)
 ltr = PointWiseLTRModel(clf)
-ltr.train(X_train, y_train)
+ltr.train(np.array(X_train), np.array(y_train))
 print('Random Forest Score:', rerank_score(basic_rankings, ltr))
 
-clf = xgboost.XGBRegressor(max_depth=3, random_state=0, base_score=0.2,
-                           objective='reg:linear', verbosity=0, n_estimators=20)
+
+clf = xgboost.XGBRegressor(max_depth=3, random_state=0, booster='gbtree',
+                           objective='reg:linear', verbosity=0, n_estimators=11)
 ltr = PointWiseLTRModel(clf)
 ltr.train(np.array(X_train), np.array(y_train))
 print('XGBoost Score:', rerank_score(basic_rankings, ltr))
